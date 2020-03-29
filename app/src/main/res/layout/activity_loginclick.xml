@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    tools:context=".loginclick">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:shadowColor="#ffff"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="hello wanderlust" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:shadowColor="#110F0F"
+        android:text="Welcome to wanderer application services"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:text="Start a new trip" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffff"
+        android:background="@drawable/button"
+        android:text="Watch wanders in map" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="75dp"
+        android:textColor="#ffff"
+        android:background="@drawable/button"
+        android:text="Exit" />
+</LinearLayout>
